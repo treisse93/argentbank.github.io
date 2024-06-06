@@ -1,0 +1,81 @@
+.accountPageMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #2c3e50;
+  flex: 1;
+  background-color: #12002b;
+}
+
+.accountPageMain__Top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 0px;
+  border: 1px solid #2c3e50;
+  padding: 25px 50px;
+  background-color: #fff;
+}
+
+.accountPageMain__Transaction {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  flex-grow: 1;
+}
+
+.accountPageMain__Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.accountPageMain__Amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 0px 0px 5px #fff;
+}
+
+.accountPageMain__Transaction__Header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 8px;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px 0;
+  text-transform: uppercase;
+  & h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  .accountPageMain__Transaction {
+    width: 100%;
+  }
+
+  .accountPageMain__Transaction__Header {
+    font-size: 40%;
+    font-weight: 500;
+  }
+}

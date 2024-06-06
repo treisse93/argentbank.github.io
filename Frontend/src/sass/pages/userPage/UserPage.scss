@@ -1,0 +1,83 @@
+/* Styling for the main container */
+.UserPageMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #12002b;
+  flex: 1;
+}
+
+.UserPageTop {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+  margin: 30px auto;
+  font-weight: bold;
+}
+
+.EditNameBtnContainer {
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  border-color: #00bc77;
+  background-color: #00bc77;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.userTitleName {
+  flex-direction: column;
+}
+
+.userTitleForm {
+  flex-direction: column;
+}
+
+.userTitleInputContainer {
+  margin-bottom: 20px;
+}
+
+.userTitleButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+  margin-bottom: 20px;
+}
+
+.userTitleInput {
+  width: 150px;
+  padding: 10px;
+  margin: 0 20px;
+  border: 2px solid #aeaff0;
+  outline: none;
+}
+
+/* Styling for user title input placeholder text */
+.userTitleInput::-webkit-input-placeholder {
+  color: #46296f;
+  font-weight: bold;
+}
+
+.userTitleButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  padding: 10px 20px;
+  margin: 0 20px;
+  border-color: #00bc77;
+  background-color: #00bc77;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}

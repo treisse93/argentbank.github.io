@@ -1,0 +1,124 @@
+.mainTop {
+  background-image: url("../../../assets/bank-tree.jpeg");
+  background-size: cover;
+  background-position: center 33%;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 150px;
+}
+
+.mainTop__Content {
+  text-align: left;
+  background-color: white;
+  padding: 2rem;
+  margin: 2rem;
+  max-width: 350px;
+}
+
+.mainTop__Subtitle {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0px;
+}
+
+.mainTop__Text {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.mainTop__sr_only {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #2c3e50;
+  text-align: left;
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+
+@media (max-width: 991px) {
+  .mainTop {
+    height: 50%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .mainTop__Content {
+    text-align: left;
+    background-color: white;
+    padding: 2rem;
+    margin: 2rem;
+    width: 300px;
+  }
+
+  .mainTop__Subtitle {
+    color: black;
+    font-weight: 550;
+    font-size: 1.5rem;
+    margin: 0px;
+  }
+
+  /* Styles for text in the Hero content */
+  .mainTop__text {
+    font-weight: 300;
+    text-shadow: 2px 7px 6px #000000;
+    font-size: 1.5rem;
+    color: white;
+  }
+}
+
+@media (max-width: 767px) {
+  .mainTop {
+    align-items: center;
+    box-shadow: inset 0px 10px 100px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .mainTop__Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .mainTop__text {
+    text-shadow: 2px 7px 6px #000000;
+  }
+}
+
+@media (max-width: 474px) {
+  .mainTop {
+    justify-content: center;
+    padding-right: 0px;
+    align-items: center;
+    box-shadow: inset 0px 10px 100px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .mainTop__Content {
+    position: relative;
+    width: 200px;
+    background: white;
+    padding: 30px;
+    margin: 30px auto;
+  }
+
+  .mainTop__Text {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,125 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.header__Logo {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  width: 200px;
+}
+
+.header__Link {
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #2c3e50;
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+
+.header__Link:hover {
+  color: #2c3e50;
+  text-decoration: underline;
+}
+
+.sr_only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+
+.header__Link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #2c3e50;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.header__Link:hover {
+  color: #2c3e50;
+  text-decoration: underline;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.header__Logo {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  width: 200px;
+}
+
+.header__Link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #2c3e50;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.header__Link:hover {
+  color: #2c3e50;
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+
+@media (max-width: 425px) {
+  .header {
+    padding: 15px;
+  }
+
+  .header > a {
+    margin: 0px;
+    padding: 0 0;
+    max-width: 50%;
+  }
+
+  .header__Logo {
+    display: flex;
+    align-items: center;
+    width: 80%;
+  }
+
+  .header__Link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #2c3e50;
+    text-decoration: none;
+    margin: 0 0.25rem;
+    font-size: 0.75rem;
+    width: auto;
+    text-wrap: nowrap;
+  }
+  .header__Link:hover {
+    color: #2c3e50;
+    text-decoration: underline;
+  }
+}
